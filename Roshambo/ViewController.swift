@@ -19,6 +19,19 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let controller = segue.destinationViewController as!
+        EndGameViewController
+        controller.AmIPaper = false
+        controller.AmIRock = false
+        controller.AmIPaper = false
+        
+        if segue.identifier == "Scissors Seque" {
+            controller.AmIScissors = true
+
+        }
+    }
 
 
 }

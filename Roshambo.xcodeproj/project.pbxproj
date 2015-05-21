@@ -7,19 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34BE1AE1B0D7F56008566DA /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BE1AD1B0D7F56008566DA /* EndGameViewController.swift */; };
 		C39792BC1B09B86300F499D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39792BB1B09B86300F499D0 /* AppDelegate.swift */; };
 		C39792BE1B09B86300F499D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39792BD1B09B86300F499D0 /* ViewController.swift */; };
 		C39792C11B09B86300F499D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39792BF1B09B86300F499D0 /* Main.storyboard */; };
 		C39792C31B09B86300F499D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39792C21B09B86300F499D0 /* Images.xcassets */; };
 		C39792C61B09B86300F499D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39792C41B09B86300F499D0 /* LaunchScreen.xib */; };
 		C39792D21B09B86300F499D0 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39792D11B09B86300F499D0 /* RoshamboTests.swift */; };
-		C39792E31B09B8B800F499D0 /* itsATie.png in Resources */ = {isa = PBXBuildFile; fileRef = C39792DC1B09B8B800F499D0 /* itsATie.png */; };
-		C39792E41B09B8B800F499D0 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = C39792DD1B09B8B800F499D0 /* paper.png */; };
-		C39792E51B09B8B800F499D0 /* PaperCoversRock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C39792DE1B09B8B800F499D0 /* PaperCoversRock.jpg */; };
-		C39792E61B09B8B800F499D0 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = C39792DF1B09B8B800F499D0 /* rock.png */; };
-		C39792E71B09B8B800F499D0 /* RockCrushesScissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C39792E01B09B8B800F499D0 /* RockCrushesScissors.jpeg */; };
-		C39792E81B09B8B800F499D0 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = C39792E11B09B8B800F499D0 /* scissors.png */; };
-		C39792E91B09B8B800F499D0 /* ScissorsCutPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C39792E21B09B8B800F499D0 /* ScissorsCutPaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C34BE1AD1B0D7F56008566DA /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		C39792B61B09B86300F499D0 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39792BA1B09B86300F499D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39792BB1B09B86300F499D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,13 +38,6 @@
 		C39792CB1B09B86300F499D0 /* RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39792D01B09B86300F499D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39792D11B09B86300F499D0 /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
-		C39792DC1B09B8B800F499D0 /* itsATie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itsATie.png; sourceTree = "<group>"; };
-		C39792DD1B09B8B800F499D0 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
-		C39792DE1B09B8B800F499D0 /* PaperCoversRock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaperCoversRock.jpg; sourceTree = "<group>"; };
-		C39792DF1B09B8B800F499D0 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
-		C39792E01B09B8B800F499D0 /* RockCrushesScissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockCrushesScissors.jpeg; sourceTree = "<group>"; };
-		C39792E11B09B8B800F499D0 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
-		C39792E21B09B8B800F499D0 /* ScissorsCutPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScissorsCutPaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +79,7 @@
 		C39792B81B09B86300F499D0 /* Roshambo */ = {
 			isa = PBXGroup;
 			children = (
+				C34BE1AD1B0D7F56008566DA /* EndGameViewController.swift */,
 				C39792BB1B09B86300F499D0 /* AppDelegate.swift */,
 				C39792BD1B09B86300F499D0 /* ViewController.swift */,
 				C39792BF1B09B86300F499D0 /* Main.storyboard */,
@@ -104,7 +93,6 @@
 		C39792B91B09B86300F499D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C39792DB1B09B8B800F499D0 /* Roshambo_ImageAssets */,
 				C39792BA1B09B86300F499D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -125,20 +113,6 @@
 				C39792D01B09B86300F499D0 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C39792DB1B09B8B800F499D0 /* Roshambo_ImageAssets */ = {
-			isa = PBXGroup;
-			children = (
-				C39792DC1B09B8B800F499D0 /* itsATie.png */,
-				C39792DD1B09B8B800F499D0 /* paper.png */,
-				C39792DE1B09B8B800F499D0 /* PaperCoversRock.jpg */,
-				C39792DF1B09B8B800F499D0 /* rock.png */,
-				C39792E01B09B8B800F499D0 /* RockCrushesScissors.jpeg */,
-				C39792E11B09B8B800F499D0 /* scissors.png */,
-				C39792E21B09B8B800F499D0 /* ScissorsCutPaper.jpg */,
-			);
-			path = Roshambo_ImageAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,16 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39792E91B09B8B800F499D0 /* ScissorsCutPaper.jpg in Resources */,
 				C39792C11B09B86300F499D0 /* Main.storyboard in Resources */,
-				C39792E71B09B8B800F499D0 /* RockCrushesScissors.jpeg in Resources */,
-				C39792E41B09B8B800F499D0 /* paper.png in Resources */,
-				C39792E31B09B8B800F499D0 /* itsATie.png in Resources */,
-				C39792E61B09B8B800F499D0 /* rock.png in Resources */,
-				C39792E51B09B8B800F499D0 /* PaperCoversRock.jpg in Resources */,
 				C39792C61B09B86300F499D0 /* LaunchScreen.xib in Resources */,
 				C39792C31B09B86300F499D0 /* Images.xcassets in Resources */,
-				C39792E81B09B8B800F499D0 /* scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +217,7 @@
 			files = (
 				C39792BE1B09B86300F499D0 /* ViewController.swift in Sources */,
 				C39792BC1B09B86300F499D0 /* AppDelegate.swift in Sources */,
+				C34BE1AE1B0D7F56008566DA /* EndGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +413,7 @@
 				C39792D71B09B86300F499D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C39792D81B09B86300F499D0 /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +422,7 @@
 				C39792DA1B09B86300F499D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
